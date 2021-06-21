@@ -50,7 +50,7 @@ ET_SCOMNAME <- ET_SCOMNAME[!ET_SCOMNAME$SCOMNAME %in% f,]
 addWords_mod <- c("sp.","spp.","var.","pop.","nr.")
 addWords_org <- c("PNHP","NatureServe","DCNR","PGC","PFBC","USFS","USFWS","FWS","USDA","WPC")
 addWords_tools <- c("Biotics","iMap","iMapInvasives","COA") 
-addWords_sciencewords <- c("infrataxa","heliophytic","heliophyte","autogamous")
+addWords_sciencewords <- c("infrataxa","heliophytic","heliophyte","autogamous","selfing")
 #addWords_dashedspecies <- c("y-inversum","x-punctatus","u-album","l-album") ### NOTE: Word doens't accept compound words in spell check...
 addWords <- c(addWords_mod, addWords_org, addWords_tools,addWords_sciencewords) #,addWords_dashedspecies
 rm(addWords_mod, addWords_org, addWords_tools,addWords_sciencewords) #,addWords_dashedspecies
